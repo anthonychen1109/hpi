@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'j3MJY3B6UFgGioEWnPkd';
+const API_KEY = process.env.REACT_APP_API_KEY
 const ROOT_URL = 'https://www.quandl.com/api/v3/datasets/';
 
 export const FETCH_DATA = "fetch_data";
